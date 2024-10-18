@@ -1,9 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .image-frame {
     text-align: center;
+}
+
+.page-title,
+.page-footer,
+.red,
+.white,
+.blue,
+.green,
+.yellow {
+    padding: 8px;
+}
+
+p,
+ul {
+    margin: 8px 16px;
 }
 
 .page-title {
@@ -39,4 +55,23 @@ body {
 .yellow {
     background-color: yellow;
     color: rgb(86, 88, 72);
+}
+
+.page-footer {
+    background-color: rgb(39, 44, 114);
+    color: rgb(217, 221, 221);
+    font-size: 18px;
+    display: block;
+}
+
+#recipes-list li {
+    margin: 4px;
+    background-color: rgb(39, 44, 114);
+    padding: 8px;
+    width: 350px;
+}
+
+#recipes-list li a {
+    color: rgb(217, 221, 221);
+    font-weight: 600;
 }
