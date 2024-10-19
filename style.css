@@ -64,14 +64,16 @@ ul {
     display: block;
 }
 
-#recipes-list li {
-    margin: 4px;
-    background-color: rgb(39, 44, 114);
+#recipes-list {
     padding: 8px;
     width: 350px;
 }
 
-#recipes-list li a {
+#recipes-list a {
+    display: block;
     color: rgb(217, 221, 221);
+    background-color: rgb(39, 44, 114);
     font-weight: 600;
+    margin: 8px 0px;
+    padding: 8px;
 }
